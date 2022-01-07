@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "meeting-assist-app-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/meetingAssistApp/MeetingAssistAppWebPart.js",
+          "manifest": "./src/webparts/meetingAssistApp/MeetingAssistAppWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "MeetingAssistAppWebPartStrings": "lib/webparts/meetingAssistApp/loc/{locale}.js"
+  }
+}
